@@ -1,0 +1,62 @@
+/* Main window */
+QWidget {
+    background-color: #FFFFFF;
+}
+
+QFormLayout {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+QLineEdit {
+    background-color: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+QPushButton {
+    background-color: #4183D7;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #3371B9;
+}
+
+/* Label where the text appears */
+QLabel {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left:0px;
+}
+
+/* Sliding Menu */
+QWidget#menu_widget {
+    background-color: #aabfd5;
+}
+
+QPushButton#btn_change,
+QPushButton#btn_auto,
+QPushButton#btn_customize,
+QPushButton#btn_feedback {
+    background-color: #EAEAEA;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+QPushButton#btn_change:hover,
+QPushButton#btn_auto:hover,
+QPushButton#btn_customize:hover,
+QPushButton#btn_feedback:hover {
+    background-color: #DADADA;
+}
